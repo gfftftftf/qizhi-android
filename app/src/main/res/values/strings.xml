@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">栖止</string>
+    <string name="accessibility_label">栖止 · 应用管控</string>
+    <string name="accessibility_description">识别当前正在使用的应用，在专注、休息、睡眠或达到每日限额时返回桌面。不会读取屏幕内容，也不会收集输入。</string>
+</resources>
