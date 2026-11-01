@@ -19,6 +19,8 @@ data class QizhiPalette(
     val overlayBottom: Color,
     val glow: Color,
     val star: Color,
+    val error: Color,
+    val errorContainer: Color,
 )
 
 val LightPalette = QizhiPalette(
@@ -38,6 +40,8 @@ val LightPalette = QizhiPalette(
     overlayBottom = Color(0xFFD9C7AD),
     glow = Color(0xFFC98A63),
     star = Color(0xFF8E7A5E),
+    error = Color(0xFFB3261E),
+    errorContainer = Color(0xFFF1D8D4),
 )
 
 val DarkPalette = QizhiPalette(
@@ -57,4 +61,6 @@ val DarkPalette = QizhiPalette(
     overlayBottom = Color(0xFF070B0A),
     glow = Color(0xFFD79A76),
     star = Color(0xFFD8C9A8),
+    error = Color(0xFFF2B8B5),
+    errorContainer = Color(0xFF4A2522),
 )

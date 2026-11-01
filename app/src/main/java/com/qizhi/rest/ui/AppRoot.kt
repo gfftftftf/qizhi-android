@@ -24,6 +24,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.rounded.Apps
+import androidx.compose.material.icons.rounded.Check
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.DarkMode
 import androidx.compose.material.icons.rounded.LightMode
@@ -255,7 +256,7 @@ private fun GrantResultsDialog(
                     ) {
                         Icon(
                             imageVector = if (result.success) {
-                                androidx.compose.material.icons.Icons.Rounded.Check
+                                Icons.Rounded.Check
                             } else {
                                 Icons.Rounded.Close
                             },
